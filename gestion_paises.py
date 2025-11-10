@@ -75,6 +75,7 @@ def mostrar_nombres_paises(paises):
 
 # 1) Buscar país por nombre
 def buscar_pais():
+    """Función para buscar un país por su nombre parcial o completo."""
     print("Opción seleccionada: 1 - Buscar país por nombre")
 
     # Solicitamos al usuario el nombre del país a buscar
@@ -111,7 +112,7 @@ def buscar_pais():
 
 # 2) Filtrar países
 def filtrar_paises():
-    # Funcion para filtrar países según el continente, población o superficie
+    """Funcion para filtrar países según el continente, población o superficie"""
     print("Opción seleccionada: 2 - Filtrar países")
 
     # Cargamos la lista de paises
@@ -210,6 +211,7 @@ def filtrar_paises():
 
 # 3) Ordenar países
 def ordenar_paises():
+    """Función para ordenar países según nombre, población o superficie"""
     print("Opción seleccionada: 3 - Ordenar países")
 
     # Funciones auxiliares de ordenamiento
@@ -284,6 +286,7 @@ def ordenar_paises():
 
 # 4) Estadísticas de países
 def estadisticas_paises():
+    """Función para calcular y mostrar estadísticas de países"""
     print("Opción seleccionada: 4 - Estadísticas de países")
 
     # Cargamos la lista de paises
@@ -371,6 +374,7 @@ def estadisticas_paises():
 
 # 5) Agregar nuevo país
 def agregar_pais():
+    """Función para agregar un nuevo país a la lista"""
     print("Opción seleccionada: 5 - Agregar nuevo país")
 
     # Solicitamos al usuario el nombre del país a actualizar
@@ -413,6 +417,7 @@ def agregar_pais():
 
 # 6) Actualizar datos de país
 def actualizar_pais():
+    """Función para actualizar los datos de un país existente"""
     print("Opción seleccionada: 6 - Actualizar datos de país")
     # Cargamos los países desde el archivo CSV
     paises = cargar_paises()
@@ -455,6 +460,7 @@ def actualizar_pais():
 
 # 7) Eliminar país
 def eliminar_pais():
+    """Función para eliminar un país de la lista"""
     print("Opción seleccionada: 7 - Eliminar país")
     # Cargamos los países desde el archivo CSV
     paises = cargar_paises()
