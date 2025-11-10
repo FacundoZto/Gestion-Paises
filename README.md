@@ -1,11 +1,11 @@
-# 🌎 TPI Programación I — Gestión de Países
+# TPI Programación I — Gestión de Países
 
 Este proyecto corresponde al **Trabajo Práctico Integrador de la materia Programación I**.  
 Fue desarrollado en **Python 3** y permite gestionar información sobre distintos países utilizando un archivo CSV como base de datos.
 
 ---
 
-## 🧠 Descripción del programa
+## Descripción del programa
 
 El sistema permite:
 - Leer datos de países desde un archivo `datos_paises.csv`.
@@ -20,7 +20,7 @@ El programa utiliza estructuras de datos como **listas y diccionarios**, junto c
 
 ---
 
-## ⚙️ Instrucciones de uso
+## Instrucciones de uso
 
 ### 1. Requisitos
 - Tener instalado **Python 3.10 o superior**.
@@ -51,7 +51,9 @@ Aparecerá un menú principal con las siguientes opciones:
 
 Seguí las instrucciones en pantalla para interactuar con el programa.
 
-## 🧾 Ejemplo del archivo CSV
+## Ejemplo del archivo CSV
+
+#### Formato inicial del archivo
 
 ```csv
 nombre,continente,poblacion,superficie
@@ -62,17 +64,17 @@ Brasil,America,213993437,8515767
 Australia,Oceania,25788217,7692024
 ```
 
-## 💻 Ejemplos de uso
+## Ejemplos de uso
 
-### 🔹 Ejemplo 1: Buscar país
+### Ejemplo 1: Buscar país
 
 ![Buscar un país](./capturas/buscar_pais.png)
 
-### 🔹 Ejemplo 2: Filtrar países por continente
+### Ejemplo 2: Filtrar países por continente
 
 ![Filtrar países](./capturas/filtrar_pais.png)
 
-### 🔹 Ejemplo 3: Estadísticas
+### Ejemplo 3: Estadísticas
 
 ![Estadísticas países](./capturas/estadisticas.png)
 
